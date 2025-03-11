@@ -9,6 +9,8 @@ app.use(exp.json());
 
 app.use('/v1', enrutamiento);
 
+app.set('view engine','ejs')
+
 
 
 //callback 
